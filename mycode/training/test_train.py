@@ -14,7 +14,7 @@ def test_split_data():
         'target': [0, 0, 1, 0, 1],
         'col1': [1, 2, 3, 4, 5],
         'col2': [2, 1, 1, 2, 1]
-        }
+    }
 
     data_df = pd.DataFrame(data=test_data)
     data = split_data(data_df)

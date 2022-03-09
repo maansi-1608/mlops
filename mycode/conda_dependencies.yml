@@ -20,7 +20,8 @@ dependencies:
   # Currently Azure ML Workbench only supports 3.5.2 and later.
   - python=3.7.*
   - pip
-
+  - lightgbm
+  - pandas
   - pip:
       # Base AzureML SDK
       - azureml-sdk==1.27.*
@@ -31,8 +32,6 @@ dependencies:
 
       # Training deps
       - scikit-learn
-      - lightgbm
-      - pandas
       - sklearn 
       - numpy
       - pandas
